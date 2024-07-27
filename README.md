@@ -40,14 +40,15 @@ The fonts by default will be
 
 ![ballasdasds](https://github.com/user-attachments/assets/6669b99e-4970-4856-9303-bdaa3029a338)
 
+Change the fonts, or download them yourself if you do not have them.
 
-```font-0 = Fira Code Semibold:size=10,2
-font-1 = FontAwesome
-font-2 =  Arimo Nerd Font:style=Bold:size=11,2
-font-3 = Noto Sans JP,Noto Sans JP Thin:style=Medium:size=11,2```
-**Change these to the fonts you use.**
-*Check fonts with ```fc-list | grep -i [font name]```* 
+**Fonts**
 
+https://github.com/ryanoasis/nerd-fonts/releases/download/v3.2.1/Arimo.zip
+
+https://fonts.google.com/specimen/Fira+Code
+
+https://fonts.google.com/noto/specimen/Noto+Sans+JP?query=japanese
 
 # Other
 
