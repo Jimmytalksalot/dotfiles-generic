@@ -47,11 +47,11 @@ Change the fonts, or download them yourself if you do not have them.
 
 **Fonts**
 
-https://github.com/ryanoasis/nerd-fonts/releases/download/v3.2.1/Arimo.zip
+⌜https://github.com/ryanoasis/nerd-fonts/releases/download/v3.2.1/Arimo.zip
 
 https://fonts.google.com/specimen/Fira+Code
 
-https://fonts.google.com/noto/specimen/Noto+Sans+JP?query=japanese
+https://fonts.google.com/noto/specimen/Noto+Sans+JP?query=japanese⌟
 
 # Other
 
