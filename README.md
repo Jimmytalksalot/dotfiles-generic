@@ -6,7 +6,10 @@ These are my dotfiles for i3-wm, and other things alike, this is one my first ri
 # Installation.
 
 To install, the general dependencies, install these apps
+
+
 ```polybag rofi i3-wm i3lock neovim kitty picom```
+
 Also, make sure to install the font labelled in the configuration files...
 
 **You should also install...**
