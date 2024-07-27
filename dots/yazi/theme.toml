@@ -1,0 +1,98 @@
+[manager]
+cwd = {fg =  "#6c7086"}
+hovered = {fg = "#606477" }
+preview_hovered = {fg =  "#606477"}
+marker_selected = {fg =  "#959FA9"}
+marker_copied = {fg =  "#959FA9"}
+border_style = {fg =  "#6c7086"} 
+tab_active = {fg =  "#959FA9"}
+tab_inactive = {fg =  "#959FA9"}
+tab_width = 5
+[select]
+inactive = {fg = "#58688c"}
+active = {fg = "#ffffff", bg = "#264662"}
+selected  = {fg = "#ffffff"}
+value  = {fg = "#ffffff"}
+
+
+[input]
+title = {fg =  "#ffffff"} 
+
+[completion]
+active = {fg = "#264662"}
+inactive = {fg = "#264662"}
+icon_folder = "🗀" 
+
+[tasks]
+title  = {fg = "#ffffff"}
+
+[status]
+mode_normal  = {fg =  "#6c7086"}
+mode_select = {fg =  "#1a1417"} 
+
+[help]
+run  = {fg = "#264662"}
+on  = {fg = "#264662"}
+desc  = {fg = "#264662"}
+hovered  = {fg = "#264662"}
+footer  = {fg = "#264662"}
+
+
+
+
+
+
+
+
+
+
+
+
+
+[theme]
+name = "MyCustomTheme"
+
+# Define the styles for different file types
+[filetype]
+rules = [
+    # Images
+    { mime = "image/*", fg = "#6c7086" },
+
+    # Videos
+    { mime = "video/*", fg =  "#6c7086"  },
+    { mime = "audio/*", fg =  "#6c7086"  },
+
+    # Empty files
+    { mime = "inode/x-empty", fg =  "#6c7086"  },
+
+    # Orphan symbolic links
+    { name = "*", is = "orphan", fg = "#6c7086" },
+
+    # All files
+    { name = "*", fg = "#6c7086" },
+
+    # All directories
+    { name = "*/", fg = "#6c7086", text = "🗀"  }
+]
+
+# Set the icon color
+[icon]
+prepend_rules = [
+	{ name = "*.rs"    , text = "" },
+	{ name = "Desktop/", text = "" },
+	# ...
+
+	# Icon with a color
+	{ name = "*.lua", text = "", fg = "#51a0cf" },
+
+	# You can also use `is` rule, just like `[filetype]` section
+	# Orphan symbolic links
+	{ name = "*", is = "orphan", text = "" },
+]
+
+append_rules = [
+	# My fallback icons
+	{ name = "*" , text = "" },
+	{ name = "*/", text = "🖿" },
+ { name = "*.txt", text = ""},
+]

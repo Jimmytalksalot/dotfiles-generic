@@ -1,0 +1,23 @@
+format = """
+$username\
+$hostname\
+$directory $character"""
+
+# Get editor completions based on the config schema
+"$schema" = 'https://starship.rs/config-schema.json'
+
+# Inserts a blank line between shell prompts
+add_newline = false
+
+[character]
+success_symbol = '[>](#878a9e)'
+error_symbol = '[>](#878a9e)' 
+
+
+
+[directory]
+disabled = false
+style = '#878a9e'
+
+[fill]
+symbol = " "
