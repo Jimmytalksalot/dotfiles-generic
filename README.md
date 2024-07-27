@@ -19,8 +19,9 @@ Nerd fonts: Icons used.
 
 And also, the sources used to make this...
 
-```https://www.nerdfonts.com/font-downloads``` 
-```https://github.com/polybar/polybar/wiki/Configuration```
+https://www.nerdfonts.com/font-downloads
+
+https://github.com/polybar/polybar/wiki/Configuration
 
 **Check them out to have my complete rice!**
 
