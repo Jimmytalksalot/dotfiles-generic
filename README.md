@@ -12,8 +12,11 @@ Also, make sure to install the font labelled in the configuration files...
 **You should also install...**
 
 Lazy Vim: A custom vim configuration.
+
 i3-gaps: Gaps for i3.
+
 Nerd fonts: Icons used.
+
 And also, the sources used to make this...
 
 ```https://www.nerdfonts.com/font-downloads``` 
