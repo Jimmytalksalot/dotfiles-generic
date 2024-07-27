@@ -9,7 +9,7 @@ To install, the general dependencies, install these apps
 ```polybag rofi i3-wm i3lock neovim kitty picom```
 Also, make sure to install the font labelled in the configuration files...
 
-**You should also install...*
+**You should also install...**
 Lazy Vim: A custom vim configuration.
 i3-gaps: Gaps for i3.
 Nerd fonts: Icons used.
