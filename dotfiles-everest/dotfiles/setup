@@ -1,0 +1,58 @@
+
+
+
+echo Welcome to the setup script, before we begin, let me state some things.
+
+sleep 3
+echo This program modifies the .config directory, if deleted and not backuped, it can cause serious problems.
+
+sleep 1
+echo Also, this accepts any directory in the folder this is in, so you can use this to install any dotfile into ur .config. 
+
+sleep 2
+echo Planting setup script into home directory...
+cp setup ~
+echo Done. Check ~ directory to see changes.
+
+sleep 3
+echo Exit this program if .config is not backuped type exit to exit. 
+read exit
+$exit 
+
+sleep 2 
+echo Are you sure you want to contiue? this is your final chance to exit and backup .config.
+read firstwarning
+$firstwarning 
+
+
+sleep 2
+echo Pick a config to install, rofi, yazi, polybar, or i3. [Or any directory this folder is in.]
+
+read config 
+
+echo $config 
+echo is this correct? [end program if blank or from a nondirectory in dotfiles]
+read apply
+
+echo type in exit to exit this program if the confirmation above is true.
+read quit
+$quit
+
+echo One more confirmation, make sure to backup your previous config files, if u have any
+read warn
+echo you sure you want to continue? You should end program if you entered nothing in the config selection...[MAY DELETE .CONFIG IF SO]
+read finalwarning
+
+
+
+sleep 3
+echo installing $config into .config...
+cp -r $config ~/.config/
+
+sleep 2
+echo done.
+
+sleep 1
+echo to revert changes, do rm -rf ~/.config/$config 
+sleep 10
+echo run this script again to install a different folder to .config.
