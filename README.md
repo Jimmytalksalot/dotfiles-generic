@@ -81,17 +81,4 @@ Also, if you can, subscribe to my Youtube channel.
 https://www.youtube.com/channel/UCWrNTL_kbfzrpxkePsxtPGQ
 
 
-# Dotfiles-Everest
-
-This rice is one of my older ones, it was terrible, and non-productive for me, it also had a bland design and lacked many useful things, though, if you still want to use it, it's right here, it contains all the dots including the wallpapers.
-
-![Screenshot 2024-07-25 09:37:30](https://github.com/user-attachments/assets/3d51a9d4-0d32-4e51-a065-e10f05a401d5)
-
-**Old rice** 
-
-Now, while the main branch does contain an old folder, it only contains my old i3 and polybar configs, not the ones I used in my full setup. Tinker around with these old configuration files, and do whatever, I do not care.
-
-
-
-
 
