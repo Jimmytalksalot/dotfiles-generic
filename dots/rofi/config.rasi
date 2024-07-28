@@ -9,8 +9,9 @@ display-filebrowser: " Files...";
 display-window: " Windows...";
 display-drun: " Search...";
  location: 0;
+ modi: "window,run,drun";
     show-match: true;
-
+    show-icons: false;
 }
 
 
@@ -19,33 +20,33 @@ display-drun: " Search...";
     selected-normal-foreground:  rgba ( 249, 249, 249, 100 % );
     foreground:                  rgba ( 196, 203, 212, 100 % );
     normal-foreground:           @foreground;
-    alternate-normal-background: rgba ( 45, 48, 59, 95 % );
+    alternate-normal-background: rgba ( 	0, 0, 0, 0 % );
     red:                         rgba ( 220, 50, 47, 100 % );
-    selected-urgent-foreground:  rgba ( 249, 249, 249, 100 % );
-    blue:                        rgba ( 38, 139, 210, 100 % );
-    urgent-foreground:           rgba ( 204, 102, 102, 100 % );
-    alternate-urgent-background: rgba ( 75, 81, 96, 90 % );
+    selected-urgent-foreground:  rgba ( 17, 17, 0, 67 % );
+    blue:                        rgba ( 17, 17, 0, 67 % );
+    urgent-foreground:           rgba ( 17, 17, 0, 67 % );
+    alternate-urgent-background: rgba ( 17, 17, 0, 67 % );
     active-foreground:           rgba ( 101, 172, 255, 100 % );
     lightbg:                     rgba ( 238, 232, 213, 100 % );
     selected-active-foreground:  rgba ( 249, 249, 249, 100 % );
     alternate-active-background: rgba ( 75, 81, 96, 89 % );
-    background:                  rgba ( 45, 48, 59, 95 % );
+    background:                  rgba ( 	0, 0, 0, 0  % );
     alternate-normal-foreground: @foreground;
     normal-background:           @background;
     lightfg:                     rgba ( 88, 104, 117, 100 % );
-    selected-normal-background:  rgba ( 64, 132, 214, 100 % );
+    selected-normal-background:  rgba ( 	0, 0, 0, 0 % );
     border-color:                rgba ( 124, 131, 137, 100 % );
     spacing:                     2;
     separatorcolor:              rgba ( 29, 31, 33, 100 % );
-    urgent-background:           rgba ( 29, 31, 33, 17 % );
-    selected-urgent-background:  rgba ( 165, 66, 66, 100 % );
+    urgent-background:           rgba ( 0, 0, 0, 0  % );
+    selected-urgent-background:  rgba ( 0, 0, 0, 0  % );
     alternate-urgent-foreground: @urgent-foreground;
     background-color:            rgba ( 0, 0, 0, 0 % );
     alternate-active-foreground: @active-foreground;
-    active-background:           rgba ( 29, 31, 33, 17 % );
-    selected-active-background:  rgba ( 68, 145, 237, 100 % );
- width: 500;
- height: 50%;
+    active-background:           rgba ( 0, 0, 0, 0  % );
+    selected-active-background:  rgba ( 0, 0, 0, 0  % );
+ width: 1200;
+ height: 60%;
 
 
 
@@ -54,11 +55,19 @@ window {
     background-color: @background;
     border:           0;
     padding:          0;
+x-offset:   -350px;        
+y-offset:   150px;
+
+
+
+    
+
 
 }
 mainbox {
     border:  0;
     padding: 0;
+
 }
 message {
     border:       0px 0px 0px ;
@@ -79,7 +88,7 @@ listview {
 }
 element {
     border:  0;
-    padding: 1px ;
+    padding: 0px ;
 }
 element-text {
     background-color: inherit;
